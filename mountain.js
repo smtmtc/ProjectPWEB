@@ -21,3 +21,15 @@ function toggle1() {
     	y.value='Show More1'            
     }
 }
+
+function toggle2() {
+    var x = document.getElementById('btn2')
+    var y = document.getElementById('show_hide2')
+    if (y.value=='Show More2') {
+        x.style.display = 'block'
+        y.value='Show Less2'
+    } else {
+        x.style.display = 'none'
+        y.value='Show More2'            
+    }
+}
